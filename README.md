@@ -28,7 +28,7 @@
     <label for="PHONE">*Your Phone Number:</label>
     <input type="Number" id="PHONE" name="PHONE" class="form-control" autocomplete="off" required>
     </div>
-    <input type="datetime-local" id="CHECK-IN" name="CHECK-IN" class="form-control" autocomplete="off" required hidden>
+    <input type="datetime-local" id="ARRIVAL" name="ARRIVAL" class="form-control" autocomplete="off" required hidden>
     <div class="form-group">
     <label for="REMARKS">Remarks (Optional):</label>
     <input type="text" id="REMARKS" name="REMARKS" class="form-control" autocomplete="off" style="text-transform: capitalize;">
@@ -80,7 +80,7 @@ const convertToDateTimeLocalString = (date) => {
 
 //Check-in date as today
 const currentTime = new Date();
-document.getElementById('CHECK-IN').value = convertToDateTimeLocalString(currentTime);
+document.getElementById('ARRIVAL').value = convertToDateTimeLocalString(currentTime);
 
 
 function submitText(){        
