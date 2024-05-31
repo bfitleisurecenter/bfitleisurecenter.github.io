@@ -15,7 +15,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 
-<form action="https://api.sheetmonkey.io/form/g3aoGDjR7AqXjmSyz4pkC6" method="post">
+<form action="https://api.sheetmonkey.io/form/g3aoGDjR7AqXjmSyz4pkC6" method="post" class="needs-validation" novalidate>
     <div class="form-group">
     <label for="NAME">*Your Name:</label>
     <input type="text" id="NAME" name="NAME" class="form-control" autocomplete="off" onkeyup="this.value = this.value.toUpperCase();" required>
@@ -33,9 +33,13 @@
     <label for="REMARKS">Remarks (Optional):</label>
     <input type="text" id="REMARKS" name="REMARKS" class="form-control" autocomplete="off" style="text-transform: capitalize;">
     </div>
-    <div>    
-    <label for="CONFIRMED" style="word-wrap:break-word">
-    <input type="checkbox" id="CONFIRMED" name="CONFIRMED" value="Yes" required> I confirm that the vehicle registration information provided above is accurate and true to the best of my knowledge. I understand that any inaccuracies may result in unauthorized parking and will lead to my vehicle being clamped.</label>
+    <div>   
+     
+    <div class="row g-2" style="margin-bottom:1rem">          
+      <input class="form-check-input" type="checkbox" id="CONFIRMED" name="CONFIRMED" value="Yes" style="margin-left:15px" required>
+      <label class="form-check-label col-md-11" for="CONFIRMED" style="word-wrap:break-word; margin-left:20px">
+        I confirm that the vehicle registration information provided above is accurate and true to the best of my knowledge. I understand that any inaccuracies may result in unauthorized parking and will lead to my vehicle being clamped.
+      </label>
     </div>
 
     <!-- Button trigger modal -->
