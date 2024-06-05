@@ -28,15 +28,10 @@
     <input type="text" id="CAR-REGISTRATION" name="CAR-REGISTRATION" class="form-control" autocomplete="off" onkeyup="this.value = this.value.toUpperCase();" required>
   </div>
 
-  <div class="form-group">
-    <label for="PHONE">*Your Phone Number:</label>
-    <input type="Number" id="PHONE" name="PHONE" class="form-control" autocomplete="off" required>
-  </div>
-
   <input type="datetime-local" id="ARRIVAL" name="ARRIVAL" class="form-control" autocomplete="off" required hidden>
 
   <div class="form-group">
-    <label for="REMARKS">Remarks (Optional):</label>
+    <label for="REMARKS">Make / Model (Optional):</label>
     <input type="text" id="REMARKS" name="REMARKS" class="form-control" autocomplete="off" style="text-transform: capitalize;">
   </div>  
 
@@ -78,7 +73,6 @@
 function submitText(){        
         var html="Name: <div class='font-weight-bold'>"+$("#NAME").val() + "</div>"
                   +"<br>Car Registration: <div class='font-weight-bold'>"+$("#CAR-REGISTRATION").val() + "</div>"
-                  +"<br>Phone Number: <div class='font-weight-bold'>"+$("#PHONE").val() + "</div>"
                   +"<br>Remarks: <div class='font-weight-bold'>"+$("#REMARKS").val() + "</div>";
         $("#bodyModal").html(html);
 }
