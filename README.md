@@ -31,8 +31,8 @@
   <input type="datetime-local" id="ARRIVAL" name="ARRIVAL" class="form-control" autocomplete="off" required hidden>
 
   <div class="form-group">
-    <label for="REMARKS">Make / Model (Optional):</label>
-    <input type="text" id="REMARKS" name="REMARKS" class="form-control" autocomplete="off" style="text-transform: capitalize;">
+    <label for="MODEL">Model (Optional):</label>
+    <input type="text" id="MODEL" name="MODEL" class="form-control" autocomplete="off" style="text-transform: capitalize;">
   </div>  
 
   <div class="row g-2" style="margin-bottom:1rem">          
@@ -73,7 +73,7 @@
 function submitText(){        
         var html="Name: <div class='font-weight-bold'>"+$("#NAME").val() + "</div>"
                   +"<br>Car Registration: <div class='font-weight-bold'>"+$("#CAR-REGISTRATION").val() + "</div>"
-                  +"<br>Remarks: <div class='font-weight-bold'>"+$("#REMARKS").val() + "</div>";
+                  +"<br>Remarks: <div class='font-weight-bold'>"+$("#MODEL").val() + "</div>";
         $("#bodyModal").html(html);
 }
 
