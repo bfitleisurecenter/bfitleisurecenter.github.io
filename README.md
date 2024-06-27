@@ -20,7 +20,7 @@
 <form action="https://api.sheetmonkey.io/form/g3aoGDjR7AqXjmSyz4pkC6" method="post" class="needs-validation" novalidate>
   <div class="form-group row">
     <label class="col-sm-5" for="MEMBERSHIP">*Membership Number:</label>
-    <label class="col-sm-6" for="CAR-REGISTRATION">*Car Registration:</label>
+    <label class="col-sm-6" style="margin-left:40px" for="CAR-REGISTRATION">*Car Registration:</label>
   </div>
 
   <div class="form-group row">
