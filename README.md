@@ -19,7 +19,7 @@
 
 <form action="https://api.sheetmonkey.io/form/g3aoGDjR7AqXjmSyz4pkC6" method="post" class="needs-validation" novalidate>
   <div class="form-group row">
-    <label for="MEMBERSHIP">*Your Membership Number:</label>
+    <label for="MEMBERSHIP">*Membership Number:</label>
     <label for="CAR-REGISTRATION">*Car Registration / License Plate:</label>
   </div>
 
