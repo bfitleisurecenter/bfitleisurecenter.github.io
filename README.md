@@ -19,8 +19,8 @@
 
 <form action="https://api.sheetmonkey.io/form/g3aoGDjR7AqXjmSyz4pkC6" method="post" class="needs-validation" novalidate>
   <div class="form-group">
-    <label for="NAME">*Your Name:</label>
-    <input type="text" id="NAME" name="NAME" class="form-control" autocomplete="off" onkeyup="this.value = this.value.toUpperCase();" required>
+    <label for="MEMBERSHIP">*Your Membership Number:</label>
+    <input type="text" id="MEMBERSHIP" name="MEMBERSHIP" class="form-control" autocomplete="off" onkeyup="this.value = this.value.toUpperCase();" required>
   </div>
 
   <div class="form-group">
@@ -71,7 +71,7 @@
 
 <script>
 function submitText(){        
-        var html="Name: <div class='font-weight-bold'>"+$("#NAME").val() + "</div>"
+        var html="Name: <div class='font-weight-bold'>"+$("#MEMBERSHIP").val() + "</div>"
                   +"<br>Car Registration: <div class='font-weight-bold'>"+$("#CAR-REGISTRATION").val() + "</div>"
                   +"<br>Remarks: <div class='font-weight-bold'>"+$("#MODEL").val() + "</div>";
         $("#bodyModal").html(html);
