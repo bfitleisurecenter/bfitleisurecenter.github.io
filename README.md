@@ -18,15 +18,13 @@
 
 
 <form action="https://api.sheetmonkey.io/form/g3aoGDjR7AqXjmSyz4pkC6" method="post" class="needs-validation" novalidate>
-  <div class="form-group row">
-    <label class="col-sm-5" for="MEMBERSHIP">*Membership Number:</label>
-    <label class="col-sm-6" style="margin-left:40px" for="CAR-REGISTRATION">*Car Registration:</label>
+  <div class="form-group">
+    <label for="CAR-REGISTRATION">*Car Registration:</label>
   </div>
 
-  <div class="form-group row">
+  <div class="form-group">
     <label style="padding-left:15px"></label>
-    <input type="text" id="MEMBERSHIP" name="MEMBERSHIP" class="form-control col-sm-5" autocomplete="off" onkeyup="this.value = this.value.toUpperCase();" required>
-    <input type="text" id="CAR-REGISTRATION" name="CAR-REGISTRATION" class="form-control col-sm-6" style="margin-left:30px" autocomplete="off" onkeyup="this.value = this.value.toUpperCase();" required>
+    <input type="text" id="CAR-REGISTRATION" name="CAR-REGISTRATION" class="form-control" autocomplete="off" onkeyup="this.value = this.value.toUpperCase();" required>
   </div>
 
   <input type="datetime-local" id="ARRIVAL" name="ARRIVAL" class="form-control" autocomplete="off" required hidden>
