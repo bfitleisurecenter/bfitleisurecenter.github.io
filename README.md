@@ -20,10 +20,6 @@
 <form action="https://api.sheetmonkey.io/form/g3aoGDjR7AqXjmSyz4pkC6" method="post" class="needs-validation" novalidate>
   <div class="form-group">
     <label for="CAR-REGISTRATION">*Car Registration:</label>
-  </div>
-
-  <div class="form-group">
-    <label style="padding-left:15px"></label>
     <input type="text" id="CAR-REGISTRATION" name="CAR-REGISTRATION" class="form-control" autocomplete="off" onkeyup="this.value = this.value.toUpperCase();" required>
   </div>
 
