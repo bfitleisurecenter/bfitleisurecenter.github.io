@@ -70,8 +70,7 @@
 
 <script>
 function submitText(){        
-        var html="Membership: <div class='font-weight-bold'>"+$("#MEMBERSHIP").val() + "</div>"
-                  +"<br>Car Registration: <div class='font-weight-bold'>"+$("#CAR-REGISTRATION").val() + "</div>"
+        var html="Car Registration: <div class='font-weight-bold'>"+$("#CAR-REGISTRATION").val() + "</div>"
                   +"<br>Remarks: <div class='font-weight-bold'>"+$("#MODEL").val() + "</div>";
         $("#bodyModal").html(html);
 }
